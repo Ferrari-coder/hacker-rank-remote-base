@@ -6,16 +6,18 @@ import Error from './Components/Error';
 import 'h8k-components';
 
 const title = "Hacker Dormitory";
+
 function App() {
+
   return (
-    <div className="App">
+      <div className="App">
         <h8k-navbar header={title}></h8k-navbar>
-      <div className="layout-column justify-content-center align-items-center w-50 mx-auto">
-        <Search />
-        <Error/>
-        <ResidentsList/>
+        <div className="layout-column justify-content-center align-items-center w-50 mx-auto">
+          <Search />
+          <Error />
+          <ResidentsList />
+        </div>
       </div>
-    </div>
   );
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "../studentsList";
 import { STUDENTS } from "../studentsList";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 // `joiningDate` && `validityDate` format "yyyy-mm-dd"
 
@@ -16,10 +16,12 @@ function checkValidity(joiningDate, validityDate) {
 }
 
 function Search() {
-  const [myArrayName, setmyArrayName] = useState();
-  const [myArrayDate, setmyArrayDate] = useState();
+  const [myArrayName, setmyArrayName] = useState([]);
+  const [myArrayDate, setmyArrayDate] = useState([]);
   const [myInputName, setmyInputName] = useState("");
   const [myInputDate, setmyInputDate] = useState("");
+  // The array that will be displayed in the residence list
+  const [myArrayList, setmyArrayList] = useState([]);
 
   let residentArray = [];
   let residentName;
@@ -27,13 +29,6 @@ function Search() {
   let residentArrayDate = [];
   let residentDate;
 
-//   const handleClickName = (e) => {
-//     setmyInputName(e.target.value.toLowerCase());
-//   };
-
-//   const handleClickDate = (e) => {
-//     setmyInputDate(e.target.value.toLowerCase());
-//   };
 
   const handleClick = () => {
     for (let i = 0; i < STUDENTS.length; i++) {
@@ -47,21 +42,36 @@ function Search() {
     setmyArrayName(residentArray);
     setmyArrayDate(residentArrayDate);
 
-    console.log(myArrayDate);
-    console.log(myArrayName);
+    // console.log(myArrayDate);
+    // console.log(myArrayName);
 
     console.log(myInputName);
     console.log(myInputDate);
 
-    if (myArrayName.indexOf(myInputName) === -1) {
-      console.log("name not valid");
+
+    if (myArrayName.indexOf(myInputName.toLowerCase()) === -1) {
+      // console.log("name not valid");
     } else {
-      console.log("name is valid");
+      if (checkValidity(myInputDate, myArrayDate[myArrayName.indexOf(myInputName.toLowerCase())])) {
+        // console.log("date is valid");
+
+        setmyArrayList([...myArrayList, myInputName]);
+        console.log(myArrayList);
+      } else {
+        // console.log("date not valid");
+      }
+      // console.log("name is valid");
     }
 
-	setmyInputName("");
-	setmyInputDate()
+    setmyInputName("");
+    setmyInputDate("");
+
   };
+
+  useEffect(() => {
+    handleClick();
+  }, []);
+
 
   return (
     <div className="my-50 layout-row align-items-end justify-content-end">
@@ -75,7 +85,7 @@ function Search() {
             className="mr-30 mt-10"
             value={myInputName}
             onChange={(e) => {
-				setmyInputName(e.target.value.toLowerCase());
+              setmyInputName(e.target.value);
             }}
           />
         </div>
@@ -90,7 +100,7 @@ function Search() {
             className="mr-30 mt-10"
             value={myInputDate}
             onChange={(e) => {
-				setmyInputDate(e.target.value.toLowerCase());
+              setmyInputDate(e.target.value);
             }}
           />
         </div>
@@ -103,8 +113,14 @@ function Search() {
       >
         Add
       </button>
+
+      <h1>Check</h1>
+      {myArrayList.map((name, index) => (
+        <ul key={index}>
+          <li>{name}</li>
+        </ul>
+      ))}
     </div>
   );
 }
-
 export default Search;

@@ -1,0 +1,370 @@
+<testsuites name="jest tests" tests="6" failures="6" time="5.733">
+  <testsuite name="Hacker Dormitory" errors="0" failures="6" skipped="0" timestamp="2023-01-18T23:55:21" time="5.733" tests="6">
+    <testcase classname="Hacker Dormitory should add valid students in Residents list" name="Hacker Dormitory should add valid students in Residents list" time="0.134">
+      <failure>TypeError: Cannot read properties of undefined (reading &apos;indexOf&apos;)
+    at handleClick (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\Components\Search.js:56:21)
+    at onClick (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\Components\Search.js:102:24)
+    at HTMLUnknownElement.callCallback (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at invokeGuardedCallbackAndCatchFirstError (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:306:25)
+    at executeDispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:389:3)
+    at executeDispatchesInOrder (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:414:5)
+    at executeDispatchesAndRelease (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3278:5)
+    at executeDispatchesAndReleaseTopLevel (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3287:10)
+    at forEachAccumulated (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3259:8)
+    at runEventsInBatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3304:3)
+    at runExtractedPluginEventsInBatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3514:3)
+    at handleTopLevel (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3558:5)
+    at batchedEventUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21871:12)
+    at batchedEventUpdates (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:795:12)
+    at dispatchEventForLegacyPluginEventSystem (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3568:5)
+    at attemptToDispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4267:5)
+    at dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4189:19)
+    at unstable_runWithPriority (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\scheduler\cjs\scheduler.development.js:653:12)
+    at runWithPriority$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:11039:10)
+    at discreteUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21887:12)
+    at discreteUpdates (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:806:12)
+    at dispatchDiscreteEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4168:3)
+    at invokeEventListeners (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLButtonElementImpl._dispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:133:9)
+    at HTMLButtonElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLButtonElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLButtonElement.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at fireEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\dom\dist\events.js:605:18)
+    at Function.fireEvent.&lt;computed&gt; [as click] (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\dom\dist\events.js:649:36)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\react\dist\index.js:148:40
+    at batchedUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at Function.click (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\react\dist\index.js:147:28)
+    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:38:15)
+    at Object.asyncJestTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;adam&quot;
+Received: &quot;john&quot;
+    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:39:56)
+    at Object.asyncJestTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should add valid students without case sensitivity" name="Hacker Dormitory should add valid students without case sensitivity" time="0.02">
+      <failure>TypeError: Cannot read properties of undefined (reading &apos;indexOf&apos;)
+    at handleClick (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\Components\Search.js:56:21)
+    at onClick (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\Components\Search.js:102:24)
+    at HTMLUnknownElement.callCallback (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at invokeGuardedCallbackAndCatchFirstError (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:306:25)
+    at executeDispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:389:3)
+    at executeDispatchesInOrder (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:414:5)
+    at executeDispatchesAndRelease (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3278:5)
+    at executeDispatchesAndReleaseTopLevel (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3287:10)
+    at forEachAccumulated (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3259:8)
+    at runEventsInBatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3304:3)
+    at runExtractedPluginEventsInBatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3514:3)
+    at handleTopLevel (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3558:5)
+    at batchedEventUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21871:12)
+    at batchedEventUpdates (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:795:12)
+    at dispatchEventForLegacyPluginEventSystem (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3568:5)
+    at attemptToDispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4267:5)
+    at dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4189:19)
+    at unstable_runWithPriority (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\scheduler\cjs\scheduler.development.js:653:12)
+    at runWithPriority$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:11039:10)
+    at discreteUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21887:12)
+    at discreteUpdates (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:806:12)
+    at dispatchDiscreteEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4168:3)
+    at invokeEventListeners (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLButtonElementImpl._dispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:133:9)
+    at HTMLButtonElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLButtonElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLButtonElement.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at fireEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\dom\dist\events.js:605:18)
+    at Function.fireEvent.&lt;computed&gt; [as click] (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\dom\dist\events.js:649:36)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\react\dist\index.js:148:40
+    at batchedUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at Function.click (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\react\dist\index.js:147:28)
+    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:52:15)
+    at Object.asyncJestTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;adam&quot;
+Received: &quot;john&quot;
+    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:53:56)
+    at Object.asyncJestTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should clear the input fields after adding a new student" name="Hacker Dormitory should clear the input fields after adding a new student" time="0.022">
+      <failure>TypeError: Cannot read properties of undefined (reading &apos;indexOf&apos;)
+    at handleClick (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\Components\Search.js:56:21)
+    at onClick (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\Components\Search.js:102:24)
+    at HTMLUnknownElement.callCallback (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at invokeGuardedCallbackAndCatchFirstError (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:306:25)
+    at executeDispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:389:3)
+    at executeDispatchesInOrder (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:414:5)
+    at executeDispatchesAndRelease (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3278:5)
+    at executeDispatchesAndReleaseTopLevel (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3287:10)
+    at forEachAccumulated (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3259:8)
+    at runEventsInBatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3304:3)
+    at runExtractedPluginEventsInBatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3514:3)
+    at handleTopLevel (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3558:5)
+    at batchedEventUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21871:12)
+    at batchedEventUpdates (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:795:12)
+    at dispatchEventForLegacyPluginEventSystem (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3568:5)
+    at attemptToDispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4267:5)
+    at dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4189:19)
+    at unstable_runWithPriority (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\scheduler\cjs\scheduler.development.js:653:12)
+    at runWithPriority$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:11039:10)
+    at discreteUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21887:12)
+    at discreteUpdates (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:806:12)
+    at dispatchDiscreteEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4168:3)
+    at invokeEventListeners (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLButtonElementImpl._dispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:133:9)
+    at HTMLButtonElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLButtonElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLButtonElement.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at fireEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\dom\dist\events.js:605:18)
+    at Function.fireEvent.&lt;computed&gt; [as click] (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\dom\dist\events.js:649:36)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\react\dist\index.js:148:40
+    at batchedUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at Function.click (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\react\dist\index.js:147:28)
+    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:59:15)
+    at Object.asyncJestTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;&quot;
+Received: &quot;adam&quot;
+    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:60:28)
+    at Object.asyncJestTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should show error on trying to add a student who is not in the list" name="Hacker Dormitory should show error on trying to add a student who is not in the list" time="0.017">
+      <failure>TypeError: Cannot read properties of undefined (reading &apos;indexOf&apos;)
+    at handleClick (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\Components\Search.js:56:21)
+    at onClick (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\Components\Search.js:102:24)
+    at HTMLUnknownElement.callCallback (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at invokeGuardedCallbackAndCatchFirstError (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:306:25)
+    at executeDispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:389:3)
+    at executeDispatchesInOrder (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:414:5)
+    at executeDispatchesAndRelease (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3278:5)
+    at executeDispatchesAndReleaseTopLevel (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3287:10)
+    at forEachAccumulated (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3259:8)
+    at runEventsInBatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3304:3)
+    at runExtractedPluginEventsInBatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3514:3)
+    at handleTopLevel (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3558:5)
+    at batchedEventUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21871:12)
+    at batchedEventUpdates (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:795:12)
+    at dispatchEventForLegacyPluginEventSystem (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3568:5)
+    at attemptToDispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4267:5)
+    at dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4189:19)
+    at unstable_runWithPriority (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\scheduler\cjs\scheduler.development.js:653:12)
+    at runWithPriority$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:11039:10)
+    at discreteUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21887:12)
+    at discreteUpdates (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:806:12)
+    at dispatchDiscreteEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4168:3)
+    at invokeEventListeners (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLButtonElementImpl._dispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:133:9)
+    at HTMLButtonElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLButtonElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLButtonElement.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at fireEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\dom\dist\events.js:605:18)
+    at Function.fireEvent.&lt;computed&gt; [as click] (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\dom\dist\events.js:649:36)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\react\dist\index.js:148:40
+    at batchedUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at Function.click (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\react\dist\index.js:147:28)
+    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:67:15)
+    at Object.asyncJestTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;Sorry, Anderson is not a verified student!&quot;
+Received: &quot;Error Message&quot;
+    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:69:31)
+    at Object.asyncJestTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should show error on trying to add a student whose validity has expired" name="Hacker Dormitory should show error on trying to add a student whose validity has expired" time="0.024">
+      <failure>TypeError: Cannot read properties of undefined (reading &apos;indexOf&apos;)
+    at handleClick (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\Components\Search.js:56:21)
+    at onClick (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\Components\Search.js:102:24)
+    at HTMLUnknownElement.callCallback (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at invokeGuardedCallbackAndCatchFirstError (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:306:25)
+    at executeDispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:389:3)
+    at executeDispatchesInOrder (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:414:5)
+    at executeDispatchesAndRelease (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3278:5)
+    at executeDispatchesAndReleaseTopLevel (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3287:10)
+    at forEachAccumulated (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3259:8)
+    at runEventsInBatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3304:3)
+    at runExtractedPluginEventsInBatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3514:3)
+    at handleTopLevel (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3558:5)
+    at batchedEventUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21871:12)
+    at batchedEventUpdates (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:795:12)
+    at dispatchEventForLegacyPluginEventSystem (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3568:5)
+    at attemptToDispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4267:5)
+    at dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4189:19)
+    at unstable_runWithPriority (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\scheduler\cjs\scheduler.development.js:653:12)
+    at runWithPriority$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:11039:10)
+    at discreteUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21887:12)
+    at discreteUpdates (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:806:12)
+    at dispatchDiscreteEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4168:3)
+    at invokeEventListeners (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLButtonElementImpl._dispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:133:9)
+    at HTMLButtonElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLButtonElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLButtonElement.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at fireEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\dom\dist\events.js:605:18)
+    at Function.fireEvent.&lt;computed&gt; [as click] (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\dom\dist\events.js:649:36)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\react\dist\index.js:148:40
+    at batchedUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at Function.click (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\react\dist\index.js:147:28)
+    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:81:15)
+    at Object.asyncJestTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;Sorry, Bonnie&apos;s validity has Expired!&quot;
+Received: &quot;Error Message&quot;
+    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:83:31)
+    at Object.asyncJestTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should hold the correct list and error message after series of Students addition" name="Hacker Dormitory should hold the correct list and error message after series of Students addition" time="0.033">
+      <failure>TypeError: Cannot read properties of undefined (reading &apos;indexOf&apos;)
+    at handleClick (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\Components\Search.js:56:21)
+    at onClick (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\Components\Search.js:102:24)
+    at HTMLUnknownElement.callCallback (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at invokeGuardedCallbackAndCatchFirstError (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:306:25)
+    at executeDispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:389:3)
+    at executeDispatchesInOrder (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:414:5)
+    at executeDispatchesAndRelease (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3278:5)
+    at executeDispatchesAndReleaseTopLevel (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3287:10)
+    at forEachAccumulated (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3259:8)
+    at runEventsInBatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3304:3)
+    at runExtractedPluginEventsInBatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3514:3)
+    at handleTopLevel (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3558:5)
+    at batchedEventUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21871:12)
+    at batchedEventUpdates (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:795:12)
+    at dispatchEventForLegacyPluginEventSystem (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:3568:5)
+    at attemptToDispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4267:5)
+    at dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4189:19)
+    at unstable_runWithPriority (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\scheduler\cjs\scheduler.development.js:653:12)
+    at runWithPriority$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:11039:10)
+    at discreteUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21887:12)
+    at discreteUpdates (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:806:12)
+    at dispatchDiscreteEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:4168:3)
+    at invokeEventListeners (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLButtonElementImpl._dispatch (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:133:9)
+    at HTMLButtonElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLButtonElementImpl.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLButtonElement.dispatchEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at fireEvent (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\dom\dist\events.js:605:18)
+    at Function.fireEvent.&lt;computed&gt; [as click] (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\dom\dist\events.js:649:36)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\react\dist\index.js:148:40
+    at batchedUpdates$1 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at Function.click (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@testing-library\react\dist\index.js:147:28)
+    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:89:15)
+    at Object.asyncJestTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;Sorry, Talisk&apos;s validity has Expired!&quot;
+Received: &quot;Error Message&quot;
+    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:101:31)
+    at Object.asyncJestTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

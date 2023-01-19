@@ -136,16 +136,9 @@ function Search() {
 
       </div>
 
-      <h1>Check</h1>
-      {myArrayList.map((name, index) => (
-        <ul key={index}>
-          <li>{name}</li>
-        </ul>
-      ))}
-
       {show && (<Error errorMessage={myError} />)}
 
-      <ResidentsList myResidentNameList={myArrayList} />
+      <ResidentsList myResidentList={myArrayList} />
 
     </div>
   );

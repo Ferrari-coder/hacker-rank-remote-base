@@ -1,88 +1,16 @@
-<testsuites name="jest tests" tests="6" failures="3" time="3.379">
-  <testsuite name="Hacker Dormitory" errors="0" failures="3" skipped="0" timestamp="2023-01-19T09:40:16" time="3.379" tests="6">
-    <testcase classname="Hacker Dormitory should add valid students in Residents list" name="Hacker Dormitory should add valid students in Residents list" time="0.255">
-      <failure>Error: expect(received).toEqual(expected) // deep equality
-
-Expected: &quot;adam&quot;
-Received: &quot;john&quot;
-    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:39:56)
-    at Promise.then.completed (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\utils.js:391:28)
-    at new Promise (&lt;anonymous&gt;)
-    at callAsyncCircusFn (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\utils.js:316:10)
-    at _callCircusTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:218:40)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at _runTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:155:3)
-    at _runTestsForDescribeBlock (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:66:9)
-    at _runTestsForDescribeBlock (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:60:9)
-    at run (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:25:3)
-    at runAndTransformResultsToJestFormat (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
-    at jestAdapter (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
-    at runTestInternal (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-runner\build\runTest.js:389:16)
-    at runTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-runner\build\runTest.js:475:34)
-    at TestRunner.runTests (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-runner\build\index.js:101:12)
-    at TestScheduler.scheduleTests (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@jest\core\build\TestScheduler.js:333:13)
-    at runJest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@jest\core\build\runJest.js:404:19)
-    at _run10000 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@jest\core\build\cli\index.js:320:7)
-    at runCLI (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@jest\core\build\cli\index.js:173:3)
-    at Object.run (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+<testsuites name="jest tests" tests="6" failures="0" time="3.511">
+  <testsuite name="Hacker Dormitory" errors="0" failures="0" skipped="0" timestamp="2023-01-19T10:07:58" time="3.511" tests="6">
+    <testcase classname="Hacker Dormitory should add valid students in Residents list" name="Hacker Dormitory should add valid students in Residents list" time="0.319">
     </testcase>
-    <testcase classname="Hacker Dormitory should add valid students without case sensitivity" name="Hacker Dormitory should add valid students without case sensitivity" time="0.077">
-      <failure>Error: expect(received).toEqual(expected) // deep equality
-
-Expected: &quot;adam&quot;
-Received: &quot;john&quot;
-    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:53:56)
-    at Promise.then.completed (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\utils.js:391:28)
-    at new Promise (&lt;anonymous&gt;)
-    at callAsyncCircusFn (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\utils.js:316:10)
-    at _callCircusTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:218:40)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at _runTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:155:3)
-    at _runTestsForDescribeBlock (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:66:9)
-    at _runTestsForDescribeBlock (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:60:9)
-    at run (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:25:3)
-    at runAndTransformResultsToJestFormat (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
-    at jestAdapter (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
-    at runTestInternal (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-runner\build\runTest.js:389:16)
-    at runTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-runner\build\runTest.js:475:34)
-    at TestRunner.runTests (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-runner\build\index.js:101:12)
-    at TestScheduler.scheduleTests (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@jest\core\build\TestScheduler.js:333:13)
-    at runJest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@jest\core\build\runJest.js:404:19)
-    at _run10000 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@jest\core\build\cli\index.js:320:7)
-    at runCLI (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@jest\core\build\cli\index.js:173:3)
-    at Object.run (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    <testcase classname="Hacker Dormitory should add valid students without case sensitivity" name="Hacker Dormitory should add valid students without case sensitivity" time="0.073">
     </testcase>
-    <testcase classname="Hacker Dormitory should clear the input fields after adding a new student" name="Hacker Dormitory should clear the input fields after adding a new student" time="0.061">
+    <testcase classname="Hacker Dormitory should clear the input fields after adding a new student" name="Hacker Dormitory should clear the input fields after adding a new student" time="0.075">
     </testcase>
-    <testcase classname="Hacker Dormitory should show error on trying to add a student who is not in the list" name="Hacker Dormitory should show error on trying to add a student who is not in the list" time="0.044">
+    <testcase classname="Hacker Dormitory should show error on trying to add a student who is not in the list" name="Hacker Dormitory should show error on trying to add a student who is not in the list" time="0.067">
     </testcase>
-    <testcase classname="Hacker Dormitory should show error on trying to add a student whose validity has expired" name="Hacker Dormitory should show error on trying to add a student whose validity has expired" time="0.037">
+    <testcase classname="Hacker Dormitory should show error on trying to add a student whose validity has expired" name="Hacker Dormitory should show error on trying to add a student whose validity has expired" time="0.047">
     </testcase>
-    <testcase classname="Hacker Dormitory should hold the correct list and error message after series of Students addition" name="Hacker Dormitory should hold the correct list and error message after series of Students addition" time="0.144">
-      <failure>Error: expect(received).toEqual(expected) // deep equality
-
-Expected: &quot;adam&quot;
-Received: &quot;john&quot;
-    at Object.&lt;anonymous&gt; (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\src\App.test.js:114:56)
-    at Promise.then.completed (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\utils.js:391:28)
-    at new Promise (&lt;anonymous&gt;)
-    at callAsyncCircusFn (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\utils.js:316:10)
-    at _callCircusTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:218:40)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at _runTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:155:3)
-    at _runTestsForDescribeBlock (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:66:9)
-    at _runTestsForDescribeBlock (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:60:9)
-    at run (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\run.js:25:3)
-    at runAndTransformResultsToJestFormat (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
-    at jestAdapter (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
-    at runTestInternal (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-runner\build\runTest.js:389:16)
-    at runTest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-runner\build\runTest.js:475:34)
-    at TestRunner.runTests (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-runner\build\index.js:101:12)
-    at TestScheduler.scheduleTests (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@jest\core\build\TestScheduler.js:333:13)
-    at runJest (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@jest\core\build\runJest.js:404:19)
-    at _run10000 (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@jest\core\build\cli\index.js:320:7)
-    at runCLI (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\@jest\core\build\cli\index.js:173:3)
-    at Object.run (C:\Users\ADMIN\Desktop\React\hacker-rank-remote-base\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    <testcase classname="Hacker Dormitory should hold the correct list and error message after series of Students addition" name="Hacker Dormitory should hold the correct list and error message after series of Students addition" time="0.181">
     </testcase>
   </testsuite>
 </testsuites>
